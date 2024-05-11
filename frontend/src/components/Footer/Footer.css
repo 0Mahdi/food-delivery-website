@@ -24,6 +24,7 @@
 .footer-content-left li , .footer-content-right li, .footer-content-center li {
     list-style: none;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .footer-content-right h2, .footer-content-center h2{
     color: white;
@@ -38,4 +39,14 @@
     margin: 20px 0;
     background-color: grey;
     border: none;
+}
+@media (max-width:750px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
 }

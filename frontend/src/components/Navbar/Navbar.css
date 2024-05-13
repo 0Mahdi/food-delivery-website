@@ -55,7 +55,7 @@
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    border-color: tomato;
+    background-color: tomato;
     border-radius: 5px;
     top: -8px;
     right: -8px;
